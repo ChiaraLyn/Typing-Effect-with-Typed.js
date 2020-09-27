@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: #272727;
+}
+
+.banner {
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.banner h1 {
+ color: #fff;
+ font-weight: 400;
+}
+
+/* typed.js css*/
+
+.typed-cursor {
+ color: red;
+ opacity: 1;
+ font-weight: 200;
+ -webkit-animation: blink 0.7s infinite;
+ -moz-animation: blink 0.7s infinite;
+ -ms-animation: blink 0.7s infinite;
+ -o-animation: blink 0.7s infinite;
+ animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+ 0% {
+  opacity: 1;
+ }
+ 50% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
+
+@-webkit-keyframes blink {
+ 0% {
+  opacity: 1;
+ }
+ 50% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
+
+@-moz-keyframes blink {
+ 0% {
+  opacity: 1;
+ }
+ 50% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
+
+@-ms-keyframes blink {
+ 0% {
+  opacity: 1;
+ }
+ 50% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
+
+@-o-keyframes blink {
+ 0% {
+  opacity: 1;
+ }
+ 50% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
+
+.typed-fade-out {
+ opacity: 0;
+ animation: 0;
+ transition: opacity .25s;
+}
+
+/* typed.js css end*/
