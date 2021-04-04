@@ -1,7 +1,7 @@
 $(".container").typed({
   strings: [
     "Designer",
-    "Developer"		
+    "Developer"
   ],
   stringsElement: null,
 
